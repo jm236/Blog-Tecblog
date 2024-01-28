@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(182, 182, 182);
+}
+
+.cabecalho{
+    background: #FFC300;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+}
+#links{
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 8px;
+    padding-bottom: 12px;
+    color: white;
+}
+.titulo{
+    padding: 20px 0px;
+    font-size: 60px;
+}
+#tec{
+    display: inline;
+    color: gray;
+    font-weight: bold;
+}
+#Blog{
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.item:link, .item:visited{
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+}
+.item:hover{
+    padding: 12px;
+    text-decoration: none;
+    color: #FFC300;
+    background: #FFF;
+}
+.noticias{
+    position: relative;
+    width: 75%;
+    top: 180px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+h1{
+    color: #FFC300;
+    font-size: 50px;
+    padding-top: 1%;
+}
+/* .conteudo-noticia{
+    width: 40%;
+} */
+.noticia{
+    padding-bottom: 40px;
+    /* padding-left: 150px; */
+    /* float: left; */
+    width: 60%;
+    /* border: 1px solid green; */
+    display: inline-block;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+    margin-bottom: 1%;
+}
+img{
+    padding: 5px 0px;
+    width: 100%;
+}
+.texto-pr{
+    width: 100%;
+    font-weight: 300;
+}
+.recent-posts{
+    /* border: 1px solid blue; */
+    float: right;
+    width: 20%;
+    clear: right;
+    margin-bottom: 6%;
+    background: white;
+    padding: 1%;
+    /* margin-left: 10%; */
+}
+#h2-box{
+    background: rgb(160, 160, 160);
+}
+h2{
+    padding-left: 4px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    color: rgb(59, 59, 59);
+}
+.Categorias-box{
+    width: 20%;
+    float: right;
+    /* border: 1px solid blue; */
+    clear: right;
+    background: white;
+    padding: 1%;
+}
+.lermais:link, .lermais:visited{
+    color: #FFC300;
+    text-decoration: none;
+}
+.lermais:hover{
+    text-decoration: underline;
+}
+#rodape{
+    background: rgb(160, 160, 160);
+    position: relative;
+    bottom: -220px;
+    width: 75%;
+    margin-top: 1%;
+    margin: auto;
+    text-align: center;
+}
+#rdp-texto{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: rgb(59, 59, 59);
+}
